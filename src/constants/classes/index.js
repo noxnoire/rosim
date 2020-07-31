@@ -7,9 +7,9 @@ import mage from './mage';
 import merchant from './merchant';
 import swordman from './swordman';
 import thief from './thief';
-import ninja from './ninja'
+import ninja from './ninja';
 
-const classes = [swordman, mage, archer, merchant, thief, acolyte];
+const classes = [swordman, mage, archer, merchant, thief, acolyte, ninja];
 
 export const getJob = ([firstClass, secondClass]) => {
   const { children } = find(classes, ['value', firstClass]);
