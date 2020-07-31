@@ -35,11 +35,7 @@ function MaxHPSP() {
   return (
     <Card title="HP/SP">
       <InputField>
-        <Popover
-          title="Max Hp"
-          content={HpAddMod}
-          placement="bottom"
-        >
+        <Popover title="Max Hp" content={HpAddMod} placement="bottom">
           <Label>Max HP Flat Boost</Label>
         </Popover>
         <InputNumber
@@ -50,11 +46,7 @@ function MaxHPSP() {
         />
       </InputField>
       <InputField>
-        <Popover
-          title="Max Hp"
-          content={HpMultiMod}
-          placement="bottom"
-        >
+        <Popover title="Max Hp" content={HpMultiMod} placement="bottom">
           <Label>Max HP %</Label>
         </Popover>
         <InputNumber
@@ -66,11 +58,7 @@ function MaxHPSP() {
         %
       </InputField>
       <InputField>
-        <Popover
-          title="Max Sp"
-          content={SpAddMod}
-          placement="bottom"
-        >
+        <Popover title="Max Sp" content={SpAddMod} placement="bottom">
           <Label>Max SP Flat Boost</Label>
         </Popover>
         <InputNumber
@@ -81,11 +69,7 @@ function MaxHPSP() {
         />
       </InputField>
       <InputField>
-        <Popover
-          title="Max Sp"
-          content={SpMultiMod}
-          placement="bottom"
-        >
+        <Popover title="Max Sp" content={SpMultiMod} placement="bottom">
           <Label>Max SP %</Label>
         </Popover>
         <InputNumber
