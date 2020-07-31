@@ -7,10 +7,10 @@
   "homepage": "https://rosim-ragna0.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jigsawye/rosim.git"
+    "url": "https://github.com/noxnoire/rosim.git"
   },
   "bugs": {
-    "url": "https://github.com/jigsawye/rosim/issues"
+    "url": "https://github.com/noxnoire/rosim/issues"
   },
   "scripts": {
     "start": "react-app-rewired start",
