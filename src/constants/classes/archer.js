@@ -16,52 +16,52 @@ import {
 
 export default {
   value: ARCHER,
-  label: '弓箭手',
+  label: 'ARCHER',
   children: [
     {
       value: HUNTER,
       type: SECOND,
-      label: '獵人',
+      label: 'HUNTER',
     },
     {
       value: BARD,
       type: SECOND,
-      label: '詩人',
+      label: 'BARD',
     },
     {
       value: DANCER,
       type: SECOND,
-      label: '舞孃',
+      label: 'DANCER',
     },
     {
       value: SNIPER,
       type: TRANSCENDENT_SECOND,
-      label: '神射手',
+      label: 'SNIPER',
     },
     {
       value: MINSTREL,
       type: TRANSCENDENT_SECOND,
-      label: '搞笑藝人',
+      label: 'MINSTREL',
     },
     {
       value: GYPSY,
       type: TRANSCENDENT_SECOND,
-      label: '冷豔舞姬',
+      label: 'GYPSY',
     },
     {
       value: RANGER,
       type: THIRD,
-      label: '遊俠',
+      label: 'not on ragna0',
     },
     {
       value: MAESTRO,
       type: THIRD,
-      label: '宮廷樂師',
+      label: 'not on ragna0',
     },
     {
       value: WANDERER,
       type: THIRD,
-      label: '浪跡舞者',
+      label: 'not on ragna0',
     },
   ],
 };

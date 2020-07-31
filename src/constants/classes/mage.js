@@ -13,37 +13,37 @@ import {
 
 export default {
   value: MAGE,
-  label: '法師',
+  label: 'MAGE',
   children: [
     {
       value: WIZARD,
       type: SECOND,
-      label: '巫師',
+      label: 'WIZARD',
     },
     {
       value: SAGE,
       type: SECOND,
-      label: '賢者',
+      label: 'SAGE',
     },
     {
       value: HIGH_WIZARD,
       type: TRANSCENDENT_SECOND,
-      label: '超魔導師',
+      label: 'HIGH_WIZARD',
     },
     {
       value: PROFESSOR,
       type: TRANSCENDENT_SECOND,
-      label: '智者',
+      label: 'PROFESSOR',
     },
     {
       value: WARLOCK,
       type: THIRD,
-      label: '咒術師',
+      label: 'not on ragna0',
     },
     {
       value: SORCERER,
       type: THIRD,
-      label: '妖術師',
+      label: 'not on ragna0',
     },
   ],
 };

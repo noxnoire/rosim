@@ -13,37 +13,37 @@ import {
 
 export default {
   value: MERCHANT,
-  label: '商人',
+  label: 'MERCHANT',
   children: [
     {
       value: BLACKSMITH,
       type: SECOND,
-      label: '鐵匠',
+      label: 'BLACKSMITH',
     },
     {
       value: ALCHEMIST,
       type: SECOND,
-      label: '鍊金術師',
+      label: 'ALCHEMIST',
     },
     {
       value: WHITESMITH,
       type: TRANSCENDENT_SECOND,
-      label: '神工匠',
+      label: 'WHITESMITH',
     },
     {
       value: CREATOR,
       type: TRANSCENDENT_SECOND,
-      label: '創造者',
+      label: 'CREATOR',
     },
     {
       value: MECHANIC,
       type: THIRD,
-      label: '機械工匠',
+      label: 'not on ragna0',
     },
     {
       value: GENETIC,
       type: THIRD,
-      label: '基因學者',
+      label: 'not on ragna0',
     },
   ],
 };

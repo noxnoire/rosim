@@ -13,37 +13,37 @@ import {
 
 export default {
   value: SWORDMAN,
-  label: '劍士',
+  label: 'SWORDMAN',
   children: [
     {
       value: KNIGHT,
       type: SECOND,
-      label: '騎士',
+      label: 'KNIGHT',
     },
     {
       value: CRUSADER,
       type: SECOND,
-      label: '十字軍',
+      label: 'CRUSADER',
     },
     {
       value: LORD_KNIGHT,
       type: TRANSCENDENT_SECOND,
-      label: '騎士領主',
+      label: 'LORD_KNIGHT',
     },
     {
       value: PALADIN,
       type: TRANSCENDENT_SECOND,
-      label: '聖殿十字軍',
+      label: 'PALADIN',
     },
     {
       value: RUNE_KNIGHT,
       type: THIRD,
-      label: '盧恩騎士',
+      label: 'not on ragna0',
     },
     {
       value: ROYAL_GUARD,
       type: THIRD,
-      label: '皇家禁衛隊',
+      label: 'not on ragna0',
     },
   ],
 };

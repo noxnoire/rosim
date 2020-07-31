@@ -13,37 +13,37 @@ import {
 
 export default {
   value: ACOLYTE,
-  label: '服事',
+  label: 'ACOLYTE',
   children: [
     {
       value: PRIEST,
       type: SECOND,
-      label: '祭司',
+      label: 'PRIEST',
     },
     {
       value: MONK,
       type: SECOND,
-      label: '武道家',
+      label: 'MONK',
     },
     {
       value: HIGH_PRIEST,
       type: TRANSCENDENT_SECOND,
-      label: '神官',
+      label: 'HIGH_PRIEST',
     },
     {
       value: CHAMPION,
       type: TRANSCENDENT_SECOND,
-      label: '武術宗師',
+      label: 'CHAMPION',
     },
     {
       value: ARCH_BISHOP,
       type: THIRD,
-      label: '大主教',
+      label: 'Not on Ragna0',
     },
     {
       value: SURA,
       type: THIRD,
-      label: '修羅',
+      label: 'Not on Ragna0',
     },
   ],
 };

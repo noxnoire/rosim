@@ -13,37 +13,37 @@ import {
 
 export default {
   value: THIEF,
-  label: '盜賊',
+  label: 'THIEF',
   children: [
     {
       value: ASSASSIN,
       type: SECOND,
-      label: '刺客',
+      label: 'ASSASSIN',
     },
     {
       value: ROGUE,
       type: SECOND,
-      label: '流氓',
+      label: 'ROGUE',
     },
     {
       value: ASSASSIN_CROSS,
       type: TRANSCENDENT_SECOND,
-      label: '十字刺客',
+      label: 'ASSASSIN_CROSS',
     },
     {
       value: STALKER,
       type: TRANSCENDENT_SECOND,
-      label: '神行太保',
+      label: 'STALKER',
     },
     {
       value: GUILLOTINE_CROSS,
       type: THIRD,
-      label: '十字斬首者',
+      label: 'not on ragna0',
     },
     {
       value: SHADOW_CHASER,
       type: THIRD,
-      label: '魅影追蹤者',
+      label: 'not on ragna0',
     },
   ],
 };
