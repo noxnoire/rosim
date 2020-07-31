@@ -7,6 +7,7 @@ import mage from './mage';
 import merchant from './merchant';
 import swordman from './swordman';
 import thief from './thief';
+import ninja from './ninja'
 
 const classes = [swordman, mage, archer, merchant, thief, acolyte];
 

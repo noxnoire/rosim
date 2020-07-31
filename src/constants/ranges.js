@@ -9,9 +9,10 @@ const jobLevelMap = {
   [THIRD]: 60,
 };
 
-export const getMaxBaseLevel = job => (getJobType(job) === THIRD ? 175 : 99);
+export const getMaxBaseLevel = job => (getJobType(job) === TRANSCENDENT_SECOND ? 120 : 99);
 export const getMaxJobLevel = job => jobLevelMap[getJobType(job)];
-export const getMaxStats = job => (getJobType(job) === THIRD ? 130 : 99);
+export const getMaxStats = job => (getJobType(job) === TRANSCENDENT_SECOND ? 120 : 99);
+
 
 export const getBaseLevelRange = job =>
   getJobType(job) === THIRD ? range(99, 176) : range(1, 100);

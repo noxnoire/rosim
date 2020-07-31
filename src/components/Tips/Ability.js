@@ -101,7 +101,7 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
 
     case 'DEF':
       return {
-        title: 'DEF (物理防禦力)',
+        title: 'DEF',
         content: (
           <>
             <p>the first is the soft def</p>
@@ -154,7 +154,7 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
 
     case 'CastTime':
       return {
-        title: 'Case Time',
+        title: 'Cast Time',
         content: <CastTime castTime={castTime} />,
       };
   }
