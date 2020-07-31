@@ -137,7 +137,7 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
         title: 'HIT',
         content: (
           <>
-            <p>'the hit chance'</p>
+            <p>the hit chance</p>
             <p>second is 100% hit chance up to X flee</p>
           </>
         ),
