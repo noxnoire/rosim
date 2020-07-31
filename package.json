@@ -2,9 +2,9 @@
   "name": "rosim",
   "description": "Ragnarok Online Stats Simulator",
   "version": "1.8.0",
-  "author": "Evan Ye <jigsaw.ye@gmail.com> (https://jigsawye.com/)",
+  "author": "Evan Ye <jigsaw.ye@gmail.com> (https://jigsawye.com/),noxnoire",
   "license": "MIT",
-  "homepage": "https://rosim.jigsawye.com",
+  "homepage": "https://rosim-ragna0.vercel.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/jigsawye/rosim.git"
