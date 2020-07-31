@@ -71,32 +71,32 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
     default:
     case 'ASPD':
       return {
-        title: 'ASPD (攻擊速度)',
-        content: `每秒攻擊次數：${getAspdFrequency(aspd)}`,
+        title: 'ASPD',
+        content: `Attackspeed/Second：${getAspdFrequency(aspd)}`,
       };
 
     case 'MaxHP':
       return {
-        title: 'Max HP (最大生命值)',
-        content: '角色之最大生命值',
+        title: 'Max HP',
+        content: 'character max health',
       };
 
     case 'MaxSP':
       return {
-        title: 'Max SP (最大魔力值)',
-        content: '角色之最大魔力值',
+        title: 'Max SP',
+        content: 'character max SP',
       };
 
     case 'ATK':
       return {
-        title: 'ATK (物理攻擊力)',
-        content: '以此數值造成物理傷害',
+        title: 'ATK',
+        content: 'value for physical attacks',
       };
 
     case 'MATK':
       return {
-        title: 'MATK (魔法攻擊力)',
-        content: '以此數值造成魔法傷害',
+        title: 'MATK',
+        content: 'value for magical attacks',
       };
 
     case 'DEF':
@@ -104,57 +104,57 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
         title: 'DEF (物理防禦力)',
         content: (
           <>
-            <p>前段為減算防禦力</p>
-            <p>後段為乘算防禦力 [(4000 + def) / (4000 + def * 10)]</p>
+            <p>the first is the soft def</p>
+            <p>second is hardef [(4000 + def) / (4000 + def * 10)]</p>
           </>
         ),
       };
 
     case 'MDEF':
       return {
-        title: 'MDEF (魔法防禦力)',
+        title: 'MDEF',
         content: (
           <>
-            <p>前段為減算防禦力</p>
-            <p>後段為乘算防禦力 [(1000 + def) / (1000 + def * 10)]</p>
+            <p>first is softmdef</p>
+            <p>second is hardmdef [(1000 + def) / (1000 + def * 10)]</p>
           </>
         ),
       };
 
     case 'CRI':
       return {
-        title: 'CRI (必殺攻擊率)',
+        title: 'CRI',
         content: (
           <>
-            <p>每次攻擊造成必殺攻擊的機率</p>
-            <p>此為正確的爆擊率，RO 內的面板上顯示有誤</p>
+            <p>the probability of a crit attack</p>
+            <p>this is supposed to show real crit chance?</p>
           </>
         ),
       };
 
     case 'HIT':
       return {
-        title: 'HIT (命中率)',
-        content: '以此數值與攻擊對象的迴避率算出命中的機率',
+        title: 'HIT',
+        content: 'chance to hit an enemy',
       };
 
     case 'FLEE':
       return {
-        title: 'FLEE (迴避率)',
+        title: 'FLEE',
         content: (
           <>
-            前段為基礎迴避率，後段為完全迴避率
+            the former is basic avoid chance, latter is complete avoid rate
             <br />
-            以基礎迴避率與攻擊對象的命中率算出迴避的機率
+            calculate the chance based of basic hit and enemy hit rate
             <br />
-            以完全迴避率不計攻擊對象命中直接迴避
+            direct avoid at complete avoid rate regardles of target hit rate
           </>
         ),
       };
 
     case 'CastTime':
       return {
-        title: 'Case Time (詠唱時間)',
+        title: 'Case Time',
         content: <CastTime castTime={castTime} />,
       };
   }

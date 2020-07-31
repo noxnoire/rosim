@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import zhTW from 'antd/lib/locale-provider/zh_TW';
+import enUS from 'antd/lib/locale-provider/en_US';
 import { Layout, LocaleProvider } from 'antd';
 import { Route, HashRouter as Router } from 'react-router-dom';
 
@@ -42,7 +42,7 @@ function App() {
   return (
     <StoreContext.Provider value={[state, dispatch]}>
       <Router>
-        <LocaleProvider locale={zhTW}>
+        <LocaleProvider locale={enUS}>
           <Layout>
             <AppHeader />
             <AppContent>
