@@ -7,7 +7,7 @@ export default {
     {
       value: KAGERO_OBORO,
       type: TRANSCENDENT_SECOND,
-      label: 'KAGERO_OBORO'
-    }
-  ]
-;
+      label: 'KAGERO_OBORO',
+    },
+  ],
+};
