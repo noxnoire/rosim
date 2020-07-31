@@ -66,10 +66,7 @@ function BaseInfo() {
           </Select>
         </Col>
         <Col span={7}>
-          <Popover
-            title="Job Level"
-            content={JobLevelTips}
-            placement="bottom"
+          <Popover title="Job Level" content={JobLevelTips} placement="bottom"
           >
             <Label>Job Lv.</Label>
           </Popover>
