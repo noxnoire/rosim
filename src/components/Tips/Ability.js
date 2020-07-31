@@ -18,9 +18,9 @@ function CastTime({ castTime }) {
 
   return (
     <div>
-      <p>以此百分比進行變詠減免</p>
+      <p>Use this to Calculate Cast Times</p>
       <MarginDiv>
-        起源{' '}
+        Source{' '}
         <Switch
           size="small"
           checked={isSource}
@@ -28,7 +28,7 @@ function CastTime({ castTime }) {
         />
       </MarginDiv>
       <MarginDiv>
-        <span>原始變詠 : </span>
+        <span>Skill CastTime Reduction : </span>
         <InputNumber
           size="small"
           min={0}
@@ -38,7 +38,7 @@ function CastTime({ castTime }) {
         />
       </MarginDiv>
       <MarginDiv>
-        <span>卡裝減免 : </span>
+        <span>Equip CastTime Reduction : </span>
         <InputNumber
           size="small"
           min={0}
@@ -49,7 +49,7 @@ function CastTime({ castTime }) {
         %
       </MarginDiv>
       <p>
-        最終變詠 :{' '}
+        Final Cast :{' '}
         {round(
           skillCastTime *
             (1 - equipCastTime / 100) *
