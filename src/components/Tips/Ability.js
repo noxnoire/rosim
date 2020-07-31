@@ -135,7 +135,12 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
     case 'HIT':
       return {
         title: 'HIT',
-        content: 'chance to hit an enemy',
+        content: (
+        <>
+          <p>'the hit chance'</p>
+          <p>100% hit chance up to :{' '}{round({hit}+100)} flee</p>
+        </>
+      ),
       };
 
     case 'FLEE':
