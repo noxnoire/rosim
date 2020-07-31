@@ -1,4 +1,4 @@
-import { TRANSCENDENT_SECOND, NINJA, KAGERO_OBORO } from './classNames';
+import {  KAGERO_OBORO, NINJA, TRANSCENDENT_SECOND } from './classNames';
 
 export default {
   value: NINJA,
@@ -7,7 +7,7 @@ export default {
     {
       value: KAGERO_OBORO,
       type: TRANSCENDENT_SECOND,
-      label: 'KAGERO_OBORO'
+      label: 'KAGERO_OBORO',
     },
   ],
 };
