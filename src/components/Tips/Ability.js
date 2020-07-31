@@ -20,7 +20,7 @@ function CastTime({ castTime }) {
     <div>
       <p>Use this to Calculate Cast Times</p>
       <MarginDiv>
-        Source{' '}
+        Enabled?{' '}
         <Switch
           size="small"
           checked={isSource}
@@ -28,7 +28,7 @@ function CastTime({ castTime }) {
         />
       </MarginDiv>
       <MarginDiv>
-        <span>Skill CastTime Reduction : </span>
+        <span>Skill Var Cast Time : </span>
         <InputNumber
           size="small"
           min={0}

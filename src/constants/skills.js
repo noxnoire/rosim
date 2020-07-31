@@ -15,7 +15,7 @@ export const acolyteSkills = [
   },
   {
     key: 'INCREASE_AGI',
-    name: 'INCREASE AGI',
+    name: 'INC AGI',
     maxLevel: maxLevel10,
     isToggle: false,
     buffs: maxLevel10.map(level => ({ level, status: { agi: level + 2 } })),
