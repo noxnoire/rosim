@@ -24,8 +24,8 @@ const aspdPotionModOptions = [
 ];
 
 const additiionalModOptions = [
-  { label: '攻速增加濃縮汁', value: ENRICH_CELERMINE_JUICE },
-  { label: '跳跳糖', value: SPARKLING_CANDY },
+  { label: '!Enriched celermine juice!', value: ENRICH_CELERMINE_JUICE },
+  { label: '!sparkling candy!', value: SPARKLING_CANDY },
 ];
 
 const useAspdSettingStore = () => {
@@ -62,11 +62,11 @@ function AspdSetting() {
   } = useAspdSettingStore();
 
   return (
-    <Card title="攻擊速度">
+    <Card title="attackspeed">
       <InputField>
         <Row>
           <Col xs={12}>
-            <Label>主要</Label>
+            <Label>Main</Label>
             <Select
               defaultActiveFirstOption={false}
               style={{ width: 100 }}
@@ -81,7 +81,7 @@ function AspdSetting() {
             </Select>
           </Col>
           <Col xs={12}>
-            <Label>副手</Label>
+            <Label>OffHand</Label>
             <Select
               defaultActiveFirstOption={false}
               style={{ width: 100 }}
@@ -90,10 +90,10 @@ function AspdSetting() {
               disabled={!find(allWeapons, ['id', aspd.weaponId]).lefthand}
             >
               <Option key={100} value={100}>
-                無
+                None
               </Option>
               <Option key={101} value={101}>
-                盾
+                Shield
               </Option>
               {usableLefthand.map(({ id }) => (
                 <Option key={id} value={id}>
@@ -105,8 +105,8 @@ function AspdSetting() {
         </Row>
       </InputField>
       <InputField>
-        <Popover title="裝備提升攻速 (攻擊後延遲)" content={EquipMod}>
-          <Label>裝備提升攻速</Label>
+        <Popover title="EquipMod aspd" content={EquipMod}>
+          <Label>ASPD Equip Modifier</Label>
         </Popover>
         <InputNumber
           min={-100}
@@ -117,8 +117,8 @@ function AspdSetting() {
         %
       </InputField>
       <InputField>
-        <Popover title="技能提升攻速 (攻擊後延遲)" content={SkillMod}>
-          <Label>技能提升攻速</Label>
+        <Popover title="ASPD Skill Modifier" content={SkillMod}>
+          <Label>ASPD Skill Modifier</Label>
         </Popover>
         <InputNumber
           min={0}
@@ -129,8 +129,8 @@ function AspdSetting() {
         %
       </InputField>
       <InputField>
-        <Popover title="裝備提升 ASPD" content={EquipFixed}>
-          <Label>裝備提升 ASPD</Label>
+        <Popover title="Fixed ASPD" content={EquipFixed}>
+          <Label>Fixed ASPD</Label>
         </Popover>
         <InputNumber
           min={0}

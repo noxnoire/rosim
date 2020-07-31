@@ -46,7 +46,7 @@ function BaseInfo() {
       <Row gutter={16}>
         <Col span={7}>
           <Popover
-            title="Base Level (基本等級)"
+            title="Base Level"
             content={BaseLevelTips}
             placement="bottomLeft"
           >
@@ -67,7 +67,7 @@ function BaseInfo() {
         </Col>
         <Col span={7}>
           <Popover
-            title="Job Level (職業等級)"
+            title="Job Level"
             content={JobLevelTips}
             placement="bottom"
           >

@@ -13,6 +13,6 @@ export const BaseLevelTips = (
 
 export const JobLevelTips = (
   <div>
-    <p>根據等級獲得該職業的素質加成</p>
+    <p>skill points +1</p>
   </div>
 );
