@@ -5,7 +5,7 @@ const maxLevel10 = range(10, 0, -1);
 export const acolyteSkills = [
   {
     key: 'BLESSING',
-    name: '天使之賜福',
+    name: 'BLESSING',
     maxLevel: maxLevel10,
     isToggle: false,
     buffs: maxLevel10.map(level => ({
@@ -15,14 +15,14 @@ export const acolyteSkills = [
   },
   {
     key: 'INCREASE_AGI',
-    name: '加速術',
+    name: 'INCREASE_AGI',
     maxLevel: maxLevel10,
     isToggle: false,
     buffs: maxLevel10.map(level => ({ level, status: { agi: level + 2 } })),
   },
   {
     key: 'GLORIA',
-    name: '幸運之頌歌',
+    name: 'GLORIA',
     isToggle: true,
     buffs: { luk: 30 },
   },
