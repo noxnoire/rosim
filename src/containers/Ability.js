@@ -76,7 +76,9 @@ function Ability() {
       <AbilityTip label="MDEF" suffix="+ ___">
         {mdef}
       </AbilityTip>
-      <AbilityTip label="HIT">{hit}</AbilityTip>
+      <AbilityTip label="HIT"suffix={`+ (${hit} + 100)`}>
+        {hit}
+      </AbilityTip>
       <AbilityTip label="FLEE" suffix={`+ ${dodge}`}>
         {flee}
       </AbilityTip>

@@ -7,6 +7,7 @@ import { round } from 'lodash';
 import { CardGrid } from '../Layouts/CardLayout';
 import { getAspdFrequency } from '../../utils/aspd';
 
+
 const MarginDiv = styled.div`
   margin-bottom: 5px;
 `;
@@ -138,7 +139,7 @@ const getPopoverProps = ({ label, aspd, castTime }) => {
         content: (
         <>
           <p>'the hit chance'</p>
-          <p>100% hit chance up to :{' '}{round({hit}+100)} flee</p>
+          <p>second is 100% hit chance up to X flee</p>
         </>
       ),
       };
