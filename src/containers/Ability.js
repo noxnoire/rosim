@@ -76,7 +76,9 @@ function Ability() {
       <AbilityTip label="MDEF" suffix="+ ___">
         {mdef}
       </AbilityTip>
-      <AbilityTip label="HIT" suffix={`+ ${parseInt(hit , 10) + parseInt(100, 10)}`}>
+      <AbilityTip label="HIT"
+         suffix={`+ ${parseInt(hit , 10) + parseInt(100, 10)}`}
+      >
         {hit}
       </AbilityTip>
       <AbilityTip label="FLEE" suffix={`+ ${dodge}`}>
