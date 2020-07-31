@@ -17,10 +17,10 @@ const RadioGroup = Radio.Group;
 const { Option } = Select;
 
 const aspdPotionModOptions = [
-  { label: '無', value: 0 },
-  { label: '集中藥水', value: 10 },
-  { label: '覺醒藥水', value: 15 },
-  { label: '菠色克藥水', value: 20 },
+  { label: 'None', value: 0 },
+  { label: 'Concentration Potion', value: 10 },
+  { label: 'Awakening Potion', value: 15 },
+  { label: 'Berzerk Potion', value: 20 },
 ];
 
 const additiionalModOptions = [
