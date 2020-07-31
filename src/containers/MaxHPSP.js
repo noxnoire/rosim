@@ -33,29 +33,29 @@ function MaxHPSP() {
   } = useMaxHPSPStore();
 
   return (
-    <Card title="HP/SP 加成">
+    <Card title="HP/SP">
       <InputField>
         <Popover
-          title="提升 Max Hp 的數值"
+          title="Max Hp"
           content={HpAddMod}
           placement="bottom"
         >
-          <Label>Max HP 提升</Label>
+          <Label>Max HP Flat Boost</Label>
         </Popover>
         <InputNumber
           min={-10000}
-          max={20000}
+          max={200000}
           value={hpsp.hpAddMod}
           onChange={updateHpAddMod}
         />
       </InputField>
       <InputField>
         <Popover
-          title="提升 Max Hp 的百分比"
+          title="Max Hp"
           content={HpMultiMod}
           placement="bottom"
         >
-          <Label>Max HP 提升</Label>
+          <Label>Max HP %</Label>
         </Popover>
         <InputNumber
           min={-100}
@@ -67,11 +67,11 @@ function MaxHPSP() {
       </InputField>
       <InputField>
         <Popover
-          title="提升 Max Sp 的數值"
+          title="Max Sp"
           content={SpAddMod}
           placement="bottom"
         >
-          <Label>Max SP 提升</Label>
+          <Label>Max SP Flat Boost</Label>
         </Popover>
         <InputNumber
           min={-5000}
@@ -82,11 +82,11 @@ function MaxHPSP() {
       </InputField>
       <InputField>
         <Popover
-          title="提升 Max Sp 的百分比"
+          title="Max Sp"
           content={SpMultiMod}
           placement="bottom"
         >
-          <Label>Max SP 提升</Label>
+          <Label>Max SP %</Label>
         </Popover>
         <InputNumber
           min={-100}

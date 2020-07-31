@@ -24,7 +24,7 @@ function SkillBuff() {
   const { getBuffVelue, updateBuffSkill } = useSkillBuffStore();
 
   return (
-    <Card title="Skills">
+    <Card title="Buffs">
       <Row>
         {acolyteSkills.map(({ key, name, maxLevel, isToggle = false }) => {
           const buffValue = getBuffVelue(key);
