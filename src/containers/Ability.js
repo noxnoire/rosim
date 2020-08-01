@@ -78,7 +78,7 @@ function Ability() {
       </AbilityTip>
       <AbilityTip
         label="HIT"
-        suffix={`+ ${parseInt(hit, 10) + parseInt(100, 10)}`}
+        suffix={`+ ${parseInt(hit, 10) - parseInt(100, 10)}`}
       >
         {hit}
       </AbilityTip>
